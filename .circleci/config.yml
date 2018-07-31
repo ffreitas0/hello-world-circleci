@@ -12,5 +12,5 @@ jobs:
           name: Print the Current Time
           command: date
       - run:
-          name: Run the Web Application
+          name: Build the Web Application
           command: dotnet build
