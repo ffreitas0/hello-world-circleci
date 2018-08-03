@@ -27,7 +27,7 @@ namespace hello_world_circleci
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World Marlyson TEAM!");
+                await context.Response.WriteAsync("Hello World - Slack integration - TEAM!");
             });
         }
     }
